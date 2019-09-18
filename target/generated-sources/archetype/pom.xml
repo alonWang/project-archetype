@@ -8,7 +8,10 @@
   <packaging>maven-archetype</packaging>
 
   <name>project-archetype-archetype</name>
-
+  <!--资源过滤编码-->
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
   <build>
     <extensions>
       <extension>
